@@ -1,5 +1,9 @@
 # Main
 
+&bigtriangleup; Top &diamondsuit; &blacktriangle; Up &diamondsuit; &blacktriangleleft; Previous &diamondsuit; &blacktriangledown; First: [INDI6](./INDI6/INDI6.md) &diamondsuit; &blacktriangleright; Next 
+
+
+
 
 
 This the the top-level document set for EclipseIR R & D.
@@ -8,7 +12,7 @@ For more information see the Structure and Conventions sections below.
 
 ## Table of Contents
 
-### [INDI6](./INDI6/index.md)
+### [INDI6](./INDI6/INDI6.md)
 
 INDIface and related technologies for facial detection, recognition, and analytics.
 
@@ -33,6 +37,14 @@ A *Book* typically is a collection of *Chapters* (or *Prefaces*, *Appendices*, e
 A *Collection* is a set of somewhat related *Articles*, that stand alone rather than being part of a book. Technical notes are a good example of an article.
 
 ## Conventions
+
+### Navigation
+
+A navigation line will be at the top of each page immediately below the *Title* heading.
+
+...
+
+
 
 
 

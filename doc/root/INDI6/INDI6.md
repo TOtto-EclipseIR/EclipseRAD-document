@@ -2,7 +2,7 @@
 
 
 
-&bigtriangleup; Top:[Main](../root/Main.md) &diamondsuit; &blacktriangle; Up:[Main](../root/Main.md) &diamondsuit; &blacktriangleleft; Previous &diamondsuit; &blacktriangledown; First &diamondsuit; &blacktriangleright; Next 
+&bigtriangleup; Top:[Main](../root/Main.md) &diamondsuit; &blacktriangle; Up:[Main](../root/Main.md) &diamondsuit; &blacktriangleleft; Previous &diamondsuit; &blacktriangledown; First:[Tech Notes](./TechNotes/TechNotes.md) &diamondsuit; &blacktriangleright; Next 
 
 
 

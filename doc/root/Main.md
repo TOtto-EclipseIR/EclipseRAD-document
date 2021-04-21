@@ -16,7 +16,7 @@ For more information see the Structure and Conventions sections below.
 
 INDIface and related technologies for facial detection, recognition, and analytics.
 
-#### [TechNotes](./INDI6/TechNotes/index.md) 
+#### [TechNotes](./INDI6/TechNotes/TechNotes.md)
 
 
 
@@ -42,7 +42,10 @@ A *Collection* is a set of somewhat related *Articles*, that stand alone rather 
 
 A navigation line will be at the top of each page immediately below the *Title* heading.
 
-...
+## Reference
+
+* [File & Directory Structure](./FileStructure.md)
+* 
 
 
 

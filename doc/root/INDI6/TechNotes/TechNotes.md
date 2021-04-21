@@ -1,8 +1,8 @@
 # TechNotes
 
-&bigtriangleup; Top:[Main](../root/Main.md) &diamondsuit; &blacktriangle; Up:[INDI6](../INDI6.md) &diamondsuit; &blacktriangleleft; Previous &diamondsuit; &blacktriangledown; First: [Settings](./Settings/Settings.md) &diamondsuit; &blacktriangleright; Next 
+&bigtriangleup; Top:[Main](../root/Main.md) &diamondsuit; &blacktriangle; Up:[INDI6](../INDI6.md) &diamondsuit; &blacktriangleleft; Previous &diamondsuit; &blacktriangledown; First: [Settings](TN9073-Settings.md) &diamondsuit; &blacktriangleright; Next 
 
-## [Settings](./Settings/Settings.md)
+## [TN9073 Settings](TN9073-Settings.md)
 
 
 

@@ -1,14 +1,14 @@
 # INDI6
 
 
-
-&bigtriangleup; Top:[Main](../root/Main.md) &diamondsuit; &blacktriangle; Up:[Main](../root/Main.md) &diamondsuit; &blacktriangleleft; Previous &diamondsuit; &blacktriangledown; First:[Tech Notes](./TechNotes/TechNotes.md) &diamondsuit; &blacktriangleright; Next 
-
+&bigtriangleup; Top:[Main](../root/Main.md) &CenterDot; &blacktriangle; Up:[Main](../root/Main.md) &CenterDot; &blacktriangleleft; Previous &CenterDot; &blacktriangledown; First: [TechNotes](./TechNotes/TechNotes.md) &CenterDot; &blacktriangleright; Next 
 
 
 
+## [TechNotes](./TechNotes/TechNotes.md)
 
-##[TechNotes](./TechNotes/TechNotes.md)
+- Settings
+- 
 
 
 

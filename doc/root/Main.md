@@ -1,6 +1,6 @@
 # Main
 
-&bigtriangleup; Top &diamondsuit; &blacktriangle; Up &diamondsuit; &blacktriangleleft; Previous &diamondsuit; &blacktriangledown; First: [INDI6](./INDI6/INDI6.md) &diamondsuit; &blacktriangleright; Next 
+&bigtriangleup; Top &CenterDot; &blacktriangle; Up &CenterDot; &blacktriangleleft; Previous &CenterDot; &blacktriangledown; First: [INDI6](./INDI6/INDI6.md) &CenterDot; &blacktriangleright; Next 
 
 
 

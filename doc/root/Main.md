@@ -18,6 +18,10 @@ INDIface and related technologies for facial detection, recognition, and analyti
 
 #### [TechNotes](./INDI6/TechNotes/TechNotes.md)
 
+## General
+
+[Best Practices](./General/BestPracticesNote.md)
+
 
 
 ## Structure

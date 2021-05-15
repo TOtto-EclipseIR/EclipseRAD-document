@@ -29,3 +29,16 @@ See https://www.udemy.com/course/qt-5-design-patterns/learn/lecture/21870776#que
 
 Encapsulate data access in class wrapper.
 
+
+
+## Qt
+
+### QObject
+
+* You can't copy a QObject descendent
+* _But, you can clone() one_
+* Do NOT deletelater() on stack objects
+* qDeleteAll(list) - frees pointers in list, but still list.clear() so you don't have dangleng pointers to use by mistake
+
+
+

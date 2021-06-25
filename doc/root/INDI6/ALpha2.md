@@ -38,8 +38,10 @@ Copy the INDIface directory and all of its children to the root directory on Win
         * /NoFaceFrame
           * contains unmarked frames where no qualified faces were detected
 
-        * /Face
-          * contains the marked cropped face output with eyes marked and the normalized face without any markings.
+        * /MarkedFace
+          * contains the marked cropped face output with eyes marked. 
+        * /NormalFace
+          * normalized face without any markings.
           * _Note: If less than one each left and right eye no normalized face is possible._
 
 ### Path
@@ -48,33 +50,37 @@ Copy the INDIface directory and all of its children to the root directory on Win
 
 ## Running
 * Open a command prompt
-* `cd \Distrib\INDIface\bin\win64V-bin-v6.16-Alpha1-release` if you have not added this directory to `PATH`
+* `cd` \{Distrib}`\INDIface\bin\win64V-bin-v6.16-Alpha1-release` if you have not added this directory to `PATH`
 * Run `IfSearch6`with any desired command line options
 
 ### Command Line Options
 
-#### Face Object Grouping
+#### Input
+
+* [ ] `/InputDir`={path to input files}
+
+
+
+#### Face Object Detection
 
 * `/Frame/ObjectDetection/Finding`
-
-  * MinAcross
-  * MaxAcross
-
-  - Factor
-  - Neighbors
-  - Flags
-  - MinSize _raw: overrides MaxAcross_
-  - MaxSize _raw: MinAcross_
-
-* `/Frame/ObjectDetection/Grouping`
+  * [ ] MinAcross
+  * [ ] MaxAcross
+  * _see also Object Finding option group below_
+  * **Note: For Initial Evaluation purposes, these will be fixed at 1 to 10,**
   
-  * `MinQuality=`{PerMille}
-    * default: 500&permil;
-  * `MinWidth`={pixels}
-    * default: 0 (effectively disabled)
-  * `MaxDistance`=TBD
-    * default: TBD
+* `/Frame/ObjectDetection/Grouping`
+  * _see Object Grouping option group below_
 
+#### Face Feature Object Detection
+
+* `/Face/ObjectDetection/Finding`
+  * [ ] TBD: MinAcross
+  * [ ] TBD: MaxAcross
+  * _see also Object Finding option group below_
+
+* `/Face/ObjectDetection/Grouping`
+  * _see Object Grouping option group below_
 #### Object Detection Resources
 
 * `/Resources/ObjectDetection`
@@ -86,6 +92,34 @@ Copy the INDIface directory and all of its children to the root directory on Win
   * /EyeEither
     * CascadeXmlFile=
       * default: `v4/haarcascade_eye.Xml`
+
+### Option Groups
+
+#### Object Finding
+
+##### Advanced
+These options are used to override calculated or system values:
+  * [ ] `Factor`
+  * [ ] `Neighbors`
+  * [ ]  `Flags`
+  * [ ] `MinWidth` - raw: overrides MaxAcross
+  * [ ] `MaxWidth` - raw: overrides MinAcross
+  * [ ] `MaxDetectors` - adjusts Factor in conjunction with MinWidth and MaxWidth
+* all: Default = -1 use calculated or system values
+
+#### Object Grouping
+
+  * [ ] `MinQuality=`{PerMille}
+    * default: 500&permil;
+    * **For Initial Evaluation, values from 500 to 998 will be supported.**
+  * [ ] `MinWidth`={pixels}
+    * default: 0 (effectively disabled)
+  * [ ] `MaxDistance`=TBD
+    * default: TBD
+
+
+
+
 
 
 

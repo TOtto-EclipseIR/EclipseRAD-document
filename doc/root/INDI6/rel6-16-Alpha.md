@@ -1,4 +1,4 @@
-# Alpha1
+# rel6-16-Alpha Notes
 
 ## File Setup
 
@@ -41,6 +41,7 @@ Copy the INDIface directory and all of its children to the root directory on Win
 * You may want to add the bin directory to the system `PATH` environment variable.
 
 ## Running
+
 * Open a command prompt
 * `cd \Distrib\INDIface\bin\win64V-bin-v6.16-Alpha1-release` if yoou have not added this directory to `PATH`
 * Run `IfSearch6`with any desired command line options
@@ -51,19 +52,5 @@ Copy the INDIface directory and all of its children to the root directory on Win
 
 * `/Frame/ObjectDetection/Grouping`
   * `MinQuality=`{PerMille}
-    * default: 500&permil; 
-
-#### Object Detection Resources
-
-* `/Resources/ObjectDetection`
-  * `BaseDir=` 
-    * default: `../detectors`
-  * `/FaceFrontalFull`
-    * CascadeXmlFile=
-      * default: `v4/haarcascade_frontalface_alt.Xml`
-  * /EyeEither
-    * CascadeXmlFile=
-      * default: `v4/haarcascade_eye.Xml`
-
-
+    * default: 500&
 

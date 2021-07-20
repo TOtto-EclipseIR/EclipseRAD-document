@@ -39,8 +39,9 @@ Copy the INDIface directory and all of its children to the root directory on Win
           * contains unmarked frames where no qualified faces were detected
 
         * /MarkedFace
-          * contains the marked cropped face output with eyes marked. 
-        * /NormalFace
+          * contains the marked cropped face output with eyes marked.
+          * <del>/NormalFace</del> Future
+          
           * normalized face without any markings.
           * _Note: If less than one each left and right eye no normalized face is possible._
 
@@ -58,7 +59,7 @@ Copy the INDIface directory and all of its children to the root directory on Win
 
 #### Input
 
-* [ ] `/InputDir`={path to input files}
+* [x] `/Input/Dir`={path to input files}
 
 
 
@@ -85,7 +86,7 @@ Copy the INDIface directory and all of its children to the root directory on Win
 
 #### Object Detection Resources
 
-* `/Resources/ObjectDetection`
+* `/Resources/ObjectDetection/`
   * `BaseDir=` 
     * default: `../detectors`
   * `/FaceFrontalFull`
@@ -94,6 +95,17 @@ Copy the INDIface directory and all of its children to the root directory on Win
   * /EyeEither
     * CascadeXmlFile=
       * default: `v4/haarcascade_eye.Xml`
+
+#### INDIface6 Resources
+
+* `/Resources/INDIface6/`
+  * BaseDir=
+    * Relative to executable directory
+    * default: `../data`
+  * MasterFile
+    * default: `./Face1/Face1.XML`
+  * MaxLayerLoad
+    * default: 320
 
 ### Option Groups
 
@@ -113,13 +125,32 @@ These options are used to override calculated or system values:
 
 #### Object Grouping
 
-  * [ ] `MinQuality=`{PerMille}
+  * [x] `MinQuality=`{PerMille}
     * default: 500&permil;
-    * **For Initial Evaluation, values from 500 to 998 will be supported.**
-  * [ ] `MinWidth`={pixels}
-    * default: 0 (effectively disabled)
+    * **For Initial Evaluation, only values from 500 to 998 will be supported.**
+  * [x] `MinWidth`={pixels}
+    * default: 48 
+    * zero disables
   * [ ] `MaxDistance`=TBD
     * default: TBD
+
+#### Output Directories
+
+* [ ] `/Output/`
+  * [ ] `Enable`={empty} 
+    - list of output directory names to fill
+  * [ ] `BaseDir`={none, therefore executable directory}
+  - Directories
+    * [x] `MarkedFrame/`
+    * [x] `NoFaceFrame/`
+    * [x] `MarkedFace/`
+    * [ ] Future: `NormalFace/`</del
+  - Each Directory
+    - [ ] `Dir`={DirectoryName}
+    - [ ] `Embed`={false}
+    - [ ] `FileFormat`={PNG}
+    - [ ] `FileQuality`={-1, let writer decide}
+    - [ ] Others TBD
 
 
 
